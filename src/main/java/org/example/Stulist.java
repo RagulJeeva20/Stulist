@@ -7,9 +7,9 @@ import java.util.logging.Logger;
 
 public class Stulist {
 
-    public String name;
-    public int age;
-    public double gpa;
+    private String name;
+    private int age;
+    private double gpa;
 
     Stulist(String name, int age, double gpa)
     {
@@ -48,7 +48,7 @@ public class Stulist {
 
         Stulist a1=new Stulist("ragul",18,9);
         Stulist a2=new Stulist("jeeva",19,10);
-        Stulist a3=new Stulist("kawin" ,9, 10);
+        Stulist a3=new Stulist("kawin" ,9, 11);
 
         List <Stulist> list=new ArrayList<Stulist>();
         list.add(a1);
