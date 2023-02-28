@@ -1,9 +1,4 @@
-package org.example;
 
-import java.util.*;
-import java.util.Comparator;
-import java.util.logging.Level;
-import java.util.logging.Logger;
 
 public class Stulist {
 
